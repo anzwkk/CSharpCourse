@@ -3,7 +3,7 @@ string name;
 string productName;
 double productPrice;
 string addressName;
-int addressNum;
+int addressNumber;
 
 Console.WriteLine("Введите номер заказа: ");
 orderNum = Convert.ToInt32(Console.ReadLine());
@@ -16,7 +16,7 @@ productPrice = Convert.ToDouble(Console.ReadLine());
 Console.WriteLine("Введите улицу : ");
 addressName = Console.ReadLine();
 Console.WriteLine("Введите номер адреса : ");
-addressNum = Convert.ToInt32(Console.ReadLine());
+addressNumber = Convert.ToInt32(Console.ReadLine());
 
 Console.WriteLine("Введите номер заказа: ");
 orderNum = Convert.ToInt32(Console.ReadLine());
@@ -29,7 +29,7 @@ productPrice = Convert.ToDouble(Console.ReadLine());
 Console.WriteLine("Введите улицу : ");
 addressName = Console.ReadLine();
 Console.WriteLine("Введите номер адреса : ");
-addressNum = Convert.ToInt32(Console.ReadLine());
+addressNumber = Convert.ToInt32(Console.ReadLine());
 
 Console.WriteLine("Введите номер заказа: ");
 orderNum = Convert.ToInt32(Console.ReadLine());
@@ -42,22 +42,22 @@ productPrice = Convert.ToDouble(Console.ReadLine());
 Console.WriteLine("Введите улицу : ");
 addressName = Console.ReadLine();
 Console.WriteLine("Введите номер адреса : ");
-addressNum = Convert.ToInt32(Console.ReadLine());
+addressNumber = Convert.ToInt32(Console.ReadLine());
 
 Console.WriteLine($"Order No {orderNum} ");
 Console.WriteLine($"Client: {name}");
 Console.WriteLine($"Product: {productName}, price {productPrice} EUR ");
-Console.WriteLine($"Address: {addressName}, {addressNum}");
+Console.WriteLine($"Address: {addressName}, {addressNumber}");
 
 Console.WriteLine($"Order No {orderNum} ");
 Console.WriteLine($"Client: {name}");
 Console.WriteLine($"Product: {productName}, price {productPrice} EUR ");
-Console.WriteLine($"Address: {addressName}, {addressNum}");
+Console.WriteLine($"Address: {addressName}, {addressNumber}");
 
 Console.WriteLine($"Order No {orderNum} ");
 Console.WriteLine($"Client: {name}");
 Console.WriteLine($"Product: {productName}, price {productPrice} EUR ");
-Console.WriteLine($"Address: {addressName}, {addressNum}");
+Console.WriteLine($"Address: {addressName}, {addressNumber}");
 
 
 
