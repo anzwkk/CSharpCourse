@@ -1,0 +1,45 @@
+# Visual Studio cache / temporary files
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.dll
+*.exe
+
+# Visual Studio 2017/2019 specific files
+.vscode/
+*.sln.docstates
+
+# ReSharper specific
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# NuGet
+packages/
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Nn][Yy]/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# NUnit
+*.VisualState.xml
+TestResult.xml
+nunit-*.xml
+
+# Others
+*.tmp
+coverage*.xml
+node_modules/
+*.pdb
+Thumbs.db
+*.log
